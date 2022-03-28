@@ -6,6 +6,7 @@ Weather app showing current weather data using OpenWeatherMap API.
  - Notifications
 
 ## Screenshots
+<img src="https://github.com/Seth-Omari/MawinguWeather/blob/master/Screenshot/screenshot_1.jpeg" height="600" width="300" hspace="40"><img src="https://github.com/Seth-Omari/MawinguWeather/blob/master/Screenshot/screenshot_1.jpeg" height="600" width="300" hspace="40">
 
 
 ## Built With 🛠
