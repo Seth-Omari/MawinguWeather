@@ -61,7 +61,7 @@ class WeatherViewModel(private val repository: WeatherRepository) :
     private val cities =
         arrayListOf("Nairobi", "Kisumu", "Lagos", "kampala", "Nakuru", "New York", "Mombasa")
 
-    fun fetchPopularMovies() {
+    fun fetchWeatherData() {
         viewModelScope.launch(Dispatchers.IO) {
             for (city in cities) {
                 try {

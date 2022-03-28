@@ -92,9 +92,9 @@ class WeatherFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         //initializeRecyclerView()
 
-        viewModel.fetchPopularMovies()
+        viewModel.fetchWeatherData()
         binding.swipeRefresh.setOnRefreshListener {
-            viewModel.fetchPopularMovies()
+            viewModel.fetchWeatherData()
             binding.swipeRefresh.isRefreshing = false
         }
         viewModel.weatherDataList.observe(
